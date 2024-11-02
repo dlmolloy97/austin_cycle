@@ -2,3 +2,5 @@
 target/
 dbt_packages/
 logs/
+python/notebooks/.ipynb_checkpoints/Transnational project-checkpoint.ipynb
+python/.virtual_documents/notebooks/Transnational project.ipynb
