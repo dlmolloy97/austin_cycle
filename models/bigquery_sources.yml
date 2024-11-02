@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: san_francisco_bikeshare
+    database: bigquery-public-data  
+    schema: san_francisco_bikeshare  
+    tables:
+      - name: bikeshare_stations
+      - name: bikeshare_trips
+
+  - name: austin_bikeshare
+    database: bigquery-public-data  
+    schema: austin_bikeshare  
+    tables:
+      - name: bikeshare_stations
+      - name: bikeshare_trips
